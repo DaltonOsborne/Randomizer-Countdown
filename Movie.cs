@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Randomizer_Countdown
 {
-    internal class Movie
+    public class Movie
     {
         public String Name { get; set; }    
     }

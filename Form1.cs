@@ -12,11 +12,11 @@ namespace Randomizer_Countdown
 {
     public partial class Form1 : Form
     {
-        public List<string> Movies = new List<string> { "String", "String" };
+        public List<Movie> Movies = new List<Movie> { new Movie { Name = "This is cool" } };
         public Form1()
         {
             InitializeComponent();
-            Movies.ForEach(movie => { listBox1.Items.Add(movie); });
+            Movies.ForEach(movie => { listBox1.Items.Add(movie.Name); });
         }
 
         private void button1_Click(object sender, EventArgs e)
