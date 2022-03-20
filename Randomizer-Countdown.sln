@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randomizer-Countdown", "Randomizer-Countdown.csproj", "{05B293EA-C9A4-4B24-A111-3CCACC61EF52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB5AAE77-5439-413B-9C61-67D07564DDAD}"
-	ProjectSection(SolutionItems) = preProject
-		Movies.cs = Movies.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
