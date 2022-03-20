@@ -50,6 +50,10 @@ namespace Randomizer_Countdown
 
             MessageBox.Show("The movie is: " + listBox1.SelectedItem.ToString());
         }
-        
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     } 
 }
