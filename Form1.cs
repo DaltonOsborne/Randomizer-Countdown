@@ -55,5 +55,15 @@ namespace Randomizer_Countdown
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TimeSpan result = this.dateTimePicker2.Value - this.dateTimePicker1.Value;
+            this.textBox1.Text = result.ToString();
+
+            string s = textBox1.Text;
+            string[] tempArry = textBox1.Text.Split('.');
+            textBox1.Text = tempArry[0];
+        }
     } 
 }
