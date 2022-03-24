@@ -11,8 +11,5 @@ namespace Randomizer_Countdown
         public String Name { get; set; }    
     }
 
-    public class Media
-    {
-        public DateTime PublicationDate { get; set; }
-    }
+    
 }
