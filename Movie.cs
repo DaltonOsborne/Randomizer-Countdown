@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace Randomizer_Countdown
 {
     public class Movie : Media
-    {
-        public String Name { get; set; }    
+    {  
+        public string Director { get; set; }
     }
 
     

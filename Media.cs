@@ -8,6 +8,7 @@ namespace Randomizer_Countdown
 {
     public class Media
     {
+        public String Name { get; set; }
         public DateTime PublicationDate { get; set; }
     }
 }
