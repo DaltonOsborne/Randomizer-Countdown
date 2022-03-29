@@ -40,9 +40,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(176, -2);
+            this.button1.Location = new System.Drawing.Point(1, 311);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(269, 83);
+            this.button1.Size = new System.Drawing.Size(309, 83);
             this.button1.TabIndex = 0;
             this.button1.Text = "Movie Randomizer";
             this.button1.UseVisualStyleBackColor = true;
@@ -53,13 +53,13 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(1, -2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(178, 316);
+            this.listBox1.Size = new System.Drawing.Size(309, 316);
             this.listBox1.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(316, 192);
+            this.label1.Location = new System.Drawing.Point(425, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 2;
@@ -69,7 +69,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(316, 224);
+            this.label2.Location = new System.Drawing.Point(420, 97);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 3;
@@ -77,32 +77,32 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(389, 192);
+            this.dateTimePicker1.Location = new System.Drawing.Point(509, 50);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 4;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(389, 224);
+            this.dateTimePicker2.Location = new System.Drawing.Point(509, 90);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker2.TabIndex = 5;
-            this.dateTimePicker2.Value = new System.DateTime(2022, 4, 30, 0, 1, 0, 0);
+            this.dateTimePicker2.Value = new System.DateTime(2022, 8, 30, 0, 1, 0, 0);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(389, 250);
+            this.button2.Location = new System.Drawing.Point(509, 132);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 38);
             this.button2.TabIndex = 6;
-            this.button2.Text = "Check how many days untill release of the new Pokemon Snap game!";
+            this.button2.Text = "Check how many days untill release of Pokemon Scarlet and Violet games!";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(389, 294);
+            this.textBox1.Location = new System.Drawing.Point(509, 187);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(200, 20);
             this.textBox1.TabIndex = 7;
