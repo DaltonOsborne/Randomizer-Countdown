@@ -39,7 +39,7 @@ namespace Randomizer_Countdown
         public Form1()
         {
             InitializeComponent();
-            Movies.ForEach(movie => { listBox1.Items.Add(movie.Name); });
+            Movies.ForEach(movie => { listBox1.Items.Add(movie.Name + " " + movie.PublicationDate.ToShortDateString()+ " " + movie.Director); });
         }
 
         private void button1_Click(object sender, EventArgs e)
