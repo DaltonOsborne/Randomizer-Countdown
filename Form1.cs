@@ -12,7 +12,9 @@ namespace Randomizer_Countdown
 {
     public partial class Form1 : Form
     {
-        public List<Movie> Movies = new List<Movie> { new Movie { Name = "Pokemon: The First Movie", PublicationDate = DateTime.Parse("06-08-1998"), Director = "Kunihiko Yuyama" },
+        public List<Movie> GetMoviesList() {
+
+         List<Movie> Movies = new List<Movie> { new Movie { Name = "Pokemon: The First Movie", PublicationDate = DateTime.Parse("06-08-1998"), Director = "Kunihiko Yuyama" },
         new Movie {Name = "Pokemon:The Movie 2000", PublicationDate = DateTime.Parse("06-17-1999"), Director = " Kunihiko Yuyama, Michael Haigney"},
         new Movie { Name = "Pokémon 3: The Movie - Spell of the Unown", PublicationDate = DateTime.Parse("06-08-2000"), Director = "Kunihiko Yuyama" },
             new Movie { Name = "Pokémon 4Ever: Celebi - Voice of the Forest", PublicationDate = DateTime.Parse("06-07-2001"), Director = "Kunihiko Yuyama" },
@@ -35,9 +37,13 @@ namespace Randomizer_Countdown
             new Movie {Name = "I Choose You!", PublicationDate = DateTime.Parse("06-15-2017"), Director = "Kunihiko Yuyama" },
             new Movie {Name = "The Power of Us", PublicationDate = DateTime.Parse("06-13-2018"), Director = "Tetsuo Yajima" },
             new Movie {Name = "Mewtwo Strikes Back:Evolution", PublicationDate = DateTime.Parse("06-12-2019"), Director = " Kunihiko Yuyama, Tetsuo Yajima, Motonori Sakakibara" },
-            new Movie {Name = "Secrets of the Jungle", PublicationDate = DateTime.Parse("12-25-2020"), Director = "Tetsuo Yajima" } };
+            new Movie {Name = "Secrets of the Jungle", PublicationDate = DateTime.Parse("12-25-2020"), Director = "Tetsuo Yajima" } }; 
+
+        return Movies;
+    }
         public Form1()
         {
+            var Movies = GetMoviesList();
             InitializeComponent();
             Movies.ForEach(movie => { listBox1.Items.Add(movie.Name + " " + movie.PublicationDate.ToShortDateString()+ " " + movie.Director); });
         }
