@@ -41,6 +41,8 @@ namespace Randomizer_Countdown
 
         return Movies;
     }
+
+
         public Form1()
         {
             var Movies = GetMoviesList();
